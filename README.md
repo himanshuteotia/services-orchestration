@@ -107,12 +107,3 @@ Here are some examples of service execution and their expected outcomes:
    - Explanation: Both dependent services are executed, but only once each, even though multiple services require them.
 
 These examples demonstrate how the service executor handles different combinations of service requests and manages the execution of dependent services.
-
-## Testing
-
-Run the tests using: `npm test`
-
-The tests cover:
-- Individual service execution
-- ServiceExecutor functionality
-- API endpoint behavior
