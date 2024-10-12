@@ -31,7 +31,8 @@ export class ServiceExecutor {
         executedDependencies.add('DependentService2');
       }
     }
-    // We can use promise.all here as if any fail we have to return result or all setelled if we want to show all error messages 
+    // TODO: We can use Promise.all here, as it allows us to either return the result when any promise fails or wait for 
+    // all promises to settle if we want to display all error messages.
     // Execute requested services
     for (const key of serviceKeys) {
       switch (key) {
