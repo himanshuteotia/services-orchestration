@@ -1,6 +1,4 @@
-# services-orchestration
-
-# Dynamic Service Execution POC
+# Dynamic Service Execution
 
 This project demonstrates a proof of concept for dynamically executing services based on input parameters, with support for dependent services.
 
