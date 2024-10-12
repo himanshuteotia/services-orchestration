@@ -1,9 +1,9 @@
 import 'reflect-metadata';
 import express from 'express';
 import { Container } from 'typedi';
-import { ServiceA, ServiceB, ServiceC, ServiceD, ServiceE, ServiceF } from './services.js';
-import { DependentService1, DependentService2 } from './dependentServices.js';
-import { ServiceExecutor } from './serviceExecutor.js';
+import { ServiceA, ServiceB, ServiceC, ServiceD, ServiceE, ServiceF } from './services';
+import { DependentService1, DependentService2 } from './dependentServices';
+import { ServiceExecutor } from './serviceExecutor';
 
 const app = express();
 const port = 3000;
